@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo_list</title>
+  </head>
+  <body>
+    <h1 id="location-name-tag">ToDo_list</h1>
+    <div class="todo-container">
+      <input type="text" id="todo-input" onkeydown="keyCodeCheck()" />
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="delete-btn-wrapper">
+      <button onclick="deleteAll()">전체 삭제</button>
+    </div>
+    <button onclick="weatherSearch()">날씨</button>
+  </body>
+</html>
